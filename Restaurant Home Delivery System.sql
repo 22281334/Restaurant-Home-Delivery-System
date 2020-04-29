@@ -1,3 +1,11 @@
+-- Group 98
+-- Author: 
+-- 		Bonan Liu  490219874
+-- 		Dayun Liu  490536519
+-- 		Qijing Yan 490332368
+-- Date: 29/04/2020
+
+
 CREATE TABLE Courier(
 	-- SET CourierId as primary key
 	CourierId INTEGER PRIMARY KEY,
@@ -106,14 +114,14 @@ INSERT INTO Delivery VALUES (004, TO_TIMESTAMP ('10-DEC-2019 14:00','DD-MON-RRRR
 INSERT INTO Delivery VALUES (005, TO_TIMESTAMP ('10-SEP-2019 14:00','DD-MON-RRRR HH24:MI'),
 							 TO_TIMESTAMP ('10-SEP-2019 14:30','DD-MON-RRRR HH24:MI'),005);
 
---insert value for staff--
+--insert value for staff
 INSERT INTO Staff VALUES(001,'JK','Manager');
 INSERT INTO Staff VALUES(002,'Scarlet','Leader');
 INSERT INTO Staff VALUES(003,'Wesley','worker');
 INSERT INTO Staff VALUES(004,'Adam','Worker');
 INSERT INTO Staff VALUES(005,'Lucy','Worker');
 
---insert value for table--
+--insert value for table
 INSERT INTO Places VALUES(001,001,001,001,'Bonan','Liu',0433945099,TO_TIMESTAMP('10-DEC-2019','DD-MON-RRRR'),'17 Levey Street',30.23);
 INSERT INTO Places VALUES(002,002,002,002,'Wesley','Wu',0433975099,TO_TIMESTAMP ('10-DEC-2019','DD-MON-RRRR'),'18 Levey Street',00.23);
 INSERT INTO Places VALUES(003,003,003,003,'Cherry','Sun',0433325099,TO_TIMESTAMP ('10-DEC-2019','DD-MON-RRRR'),'19 Levey Street',21.27);
